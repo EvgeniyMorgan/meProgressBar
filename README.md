@@ -1,5 +1,13 @@
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
 
+
+<p float="left">
+  <img src="/image0.png" width="33%" />
+  <img src="/image1.png" width="33%" />
+  <img src="/image2.png" width="33%" />
+</p>
+
+
 ![image](/image1.png "demo")    ![image](/image2.png "demo")  
 
 # TmeProgressBarEx Component Description
