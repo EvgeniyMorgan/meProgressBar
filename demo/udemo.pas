@@ -5,7 +5,7 @@ unit udemo;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls,
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls,
   meProgressBarLoading, meProgressBarEx;
 
 type
@@ -13,6 +13,8 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
     meProgressBarEx1: TmeProgressBarEx;
     meProgressBarEx2: TmeProgressBarEx;
     meProgressBarEx3: TmeProgressBarEx;

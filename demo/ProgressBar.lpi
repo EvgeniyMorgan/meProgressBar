@@ -26,6 +26,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="progressbar_lzr"/>
+      </Item>
+      <Item>
         <PackageName Value="visual"/>
       </Item>
       <Item>

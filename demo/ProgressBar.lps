@@ -20,7 +20,9 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="5" Y="62"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="29"/>
+        <CursorPos X="5" Y="64"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -33,17 +35,15 @@
         <UsageCount Value="11"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\..\lcl\controls.pp"/>
+        <Filename Value="C:\lcl\controls.pp"/>
         <UnitName Value="Controls"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="222"/>
         <CursorPos X="34" Y="240"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="10">
+    <JumpHistory HistoryIndex="19">
       <Position>
         <Filename Value="udemo.pas"/>
         <Caret Line="42" Column="52" TopLine="11"/>
@@ -87,6 +87,42 @@
       <Position>
         <Filename Value="udemo.pas"/>
         <Caret Line="56" Column="68" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="62" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="63" Column="5" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="62" Column="5" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="61" Column="5" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="60" Column="5" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="63" Column="5" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="64" Column="5" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="63" Column="5" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="udemo.pas"/>
+        <Caret Line="62" Column="5" TopLine="27"/>
       </Position>
     </JumpHistory>
     <RunParams>
