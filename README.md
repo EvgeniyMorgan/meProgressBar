@@ -68,3 +68,73 @@ ProgressBar.ShowText := True;
 - The component automatically handles value clamping (ensuring Progress stays between Min and Max)
 - Text formatting uses standard Format() syntax with three parameters: current value, max value, and percentage
 - The component is lightweight and inherits from TGraphicControl, making it suitable for various container controls
+
+# TmeProgressBarLoading Component Description
+
+## Overview
+TmeProgressBarLoading is a custom progress bar control for Lazarus/Delphi applications that provides enhanced visualization of progress with flexible text display options. It extends standard progress bar functionality with customizable appearance and text rendering.
+
+## Key Features
+
+- **Customizable Appearance**:
+  - Adjustable border and progress colors
+  - Configurable minimum and maximum values
+  - Smooth progress animation
+
+- **Text Display Options**:
+  - Supports left-aligned text (static label) and progress text
+  - Customizable text format (supports percentage, current value, and max value)
+  - Text outline effect for better visibility
+  - Configurable text offset from edges
+  - Automatic text positioning (inside progress or right-aligned)
+
+- **Visual Enhancements**:
+  - Proper 1px border with inner offset
+  - Smooth progress filling
+  - Font customization with automatic updates
+
+## Properties
+
+| Property            | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| BorderColor         | Color of the progress bar border (default: clGray)                         |
+| ProgressColor       | Color of the progress indicator (default: clSkyBlue)                       |
+| Min/Max             | Minimum and maximum values for the progress range (default: 0-100)         |
+| Progress            | Current progress value (automatically constrained between Min and Max)     |
+| ShowText            | Whether to display progress text (default: True)                           |
+| TextFormat          | Format string for progress text (supports %d for value, %% for percentage)|
+| TextLeft            | Optional static text to display on the left side of the progress bar       |
+| TextOffset          | Pixel offset for text from edges (default: 5)                              |
+| Font                | Custom font settings for all text                                          |
+| TextOutline         | Whether to display text with outline (default: True)                       |
+| TextOutlineColor    | Color of the text outline (default: clWhite)                               |
+
+## Usage Example
+
+```pascal
+// Create and configure a progress bar
+ProgressBar := TmeProgressBarLoading.Create(Self);
+ProgressBar.Parent := Self;
+ProgressBar.Align := alTop;
+ProgressBar.Height := 30;
+ProgressBar.Min := 0;
+ProgressBar.Max := 100;
+ProgressBar.Progress := 50;
+ProgressBar.TextFormat := 'Loading: %d%%';
+ProgressBar.TextLeft := 'Status:';
+ProgressBar.ProgressColor := clGreen;
+ProgressBar.BorderColor := clSilver;
+```
+
+## Text Formatting
+The TextFormat property supports standard Format() syntax with these placeholders:
+- `%d` - current progress value
+- `%%` - percentage completed
+- Additional numeric placeholders can be used for custom formatting
+
+## Notes
+- The component automatically handles text positioning, placing it inside the progress bar when space permits
+- All visual changes trigger automatic repaints
+- The component is registered in the 'Morgunov' palette in the IDE
+
+This component is ideal for applications that require visually appealing progress indicators with customizable text display and smooth animation.
