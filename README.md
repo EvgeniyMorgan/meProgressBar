@@ -2,9 +2,9 @@
 
 
 <p float="left">
-  <img src="/image0.png" width="25%" />
-  <img src="/image1.png" width="25%" />
-  <img src="/image2.png" width="25%" />
+  <img src="/image0.png" width="30%" />
+  <img src="/image1.png" width="30%" />
+  <img src="/image2.png" width="30%" />
 </p>
 
 # TmeProgressBarEx Component Description
