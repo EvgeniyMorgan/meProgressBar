@@ -7,9 +7,6 @@
   <img src="/image2.png" width="33%" />
 </p>
 
-
-![image](/image1.png "demo")    ![image](/image2.png "demo")  
-
 # TmeProgressBarEx Component Description
 
 ## Overview
