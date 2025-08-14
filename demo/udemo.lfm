@@ -1,0 +1,95 @@
+object Form1: TForm1
+  Left = 410
+  Height = 240
+  Top = 250
+  Width = 320
+  Caption = 'Demo - ProgressBar'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  object meProgressBarLoading1: TmeProgressBarLoading
+    Left = 8
+    Height = 20
+    Top = 104
+    Width = 304
+    BorderColor = clGray
+    Progress = 50
+    ProgressColor = 14470546
+    TextFormat = '%d%%'
+    TextLeft = 'Loading'
+    TextOffset = 2
+    Font.Color = clBlack
+    TextOutline = True
+    TextOutlineColor = clWhite
+  end
+  object meProgressBarEx1: TmeProgressBarEx
+    Left = 8
+    Height = 20
+    Top = 72
+    Width = 304
+    BorderColor = clGray
+    Progress = 50
+    ProgressColor = 9737945
+    TextFormat = 'make %d/%d (%d%%)'
+    TextPosition = tpRight
+    Font.Color = clBlack
+    TextOutline = True
+    TextOutlineColor = clWhite
+  end
+  object meProgressBarEx2: TmeProgressBarEx
+    Left = 8
+    Height = 20
+    Top = 40
+    Width = 304
+    BorderColor = clGray
+    Progress = 50
+    ProgressColor = 4626167
+    TextFormat = 'make %d/%d (%d%%)'
+    Font.Color = clBlack
+    TextOutline = True
+    TextOutlineColor = clWhite
+  end
+  object meProgressBarEx3: TmeProgressBarEx
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 304
+    BorderColor = clGray
+    Progress = 50
+    ProgressColor = clSkyBlue
+    TextFormat = 'make %d/%d (%d%%)'
+    TextPosition = tpLeft
+    Font.Color = clBlack
+    TextOutline = True
+    TextOutlineColor = clWhite
+  end
+  object TrackBar1: TTrackBar
+    Left = 8
+    Height = 25
+    Top = 168
+    Width = 304
+    Max = 100
+    Position = 50
+    ShowSelRange = False
+    TickMarks = tmBoth
+    TickStyle = tsNone
+    OnChange = TrackBar1Change
+    TabOrder = 0
+    OnClick = TrackBar1Click
+    OnMouseDown = TrackBar1MouseDown
+  end
+  object meProgressBarLoading2: TmeProgressBarLoading
+    Left = 8
+    Height = 20
+    Top = 132
+    Width = 304
+    BorderColor = clGray
+    Progress = 50
+    ProgressColor = clMoneyGreen
+    TextFormat = 'Loading %d%%'
+    TextOffset = 2
+    Font.Color = clBlack
+    TextOutline = True
+    TextOutlineColor = clWhite
+  end
+end
