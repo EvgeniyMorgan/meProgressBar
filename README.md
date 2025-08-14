@@ -1,6 +1,7 @@
-# Description of Progress Bar Components
+# Description of Progress Bar Components TmeProgressBarEx and 
 
-![image](/image1.png "image") ![image](/image2.png "image")  
+![image](/image1.png "demo")    ![image](/image2.png "demo")  
+
 # TmeProgressBarEx Component Description
 
 ## Overview
