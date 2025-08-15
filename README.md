@@ -124,8 +124,8 @@ ProgressBar.Height := 30;
 ProgressBar.Min := 0;
 ProgressBar.Max := 100;
 ProgressBar.Progress := 50;
-ProgressBar.TextFormat := 'Loading: %d%%';
-ProgressBar.TextLeft := 'Status:';
+ProgressBar.TextFormat := '%d%%';
+ProgressBar.TextLeft := 'Loading:';
 ProgressBar.ProgressColor := clGreen;
 ProgressBar.BorderColor := clSilver;
 ```
