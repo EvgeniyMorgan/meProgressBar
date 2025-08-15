@@ -1,5 +1,6 @@
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
 
+![image](images/meprogressBar.gif "meprogressBar")
 
 <p float="left">
   <img src="images/image_0.png" width="30%" />
