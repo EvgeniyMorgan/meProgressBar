@@ -2,12 +2,6 @@
 
 ![image](images/meprogressBar.gif "meprogressBar")
 
-<p float="left">
-  <img src="images/image_0.png" width="30%" />
-  <img src="images/image_1.png" width="30%" />
-  <img src="images/image_2.png" width="30%" />
-</p>
-
 # TmeProgressBarEx Component Description
 
 ## Overview
