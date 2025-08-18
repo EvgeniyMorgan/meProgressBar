@@ -1,4 +1,5 @@
-![IMPORTANT] Важно
+> [!NOTE]
+> малополезно
 
 
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
