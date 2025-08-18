@@ -1,6 +1,7 @@
 > [!NOTE]
 > Most likely, there won’t be full documentation—just no time for it, unfortunately((.
 > For any potential issues, please email us. ewgen.morgunov@yandex.ru
+>
 
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
 
