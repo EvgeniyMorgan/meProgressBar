@@ -1,4 +1,4 @@
-[!IMPORTANT]
+![IMPORTANT] Важно
 
 
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
