@@ -1,5 +1,3 @@
-![Logo](http://francky.me/images/quora001.png)
-
 # Description of Progress Bar Components TmeProgressBarEx and TmeProgressBarLoading
 
 ![image](images/meprogressBar.gif "meprogressBar")
