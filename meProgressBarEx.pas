@@ -1,3 +1,15 @@
+
+{*******************************************************************************
+
+  meProgressBar Visual Components
+
+  Copyright (c) 2025 Evgeniy Morgunov. All Rights Reserved.
+  Copyright (c) 2025 Evgeniy Morgunov. MIT License.
+
+  Source code: https://github.com/EvgeniyMorgan/meProgressBar
+
+*******************************************************************************}
+
 unit meProgressBarEx;
 
 {$mode objfpc}{$H+}
