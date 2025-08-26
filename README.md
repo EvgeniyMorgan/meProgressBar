@@ -1,7 +1,8 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/IDE-Lazarus-Green">
-<img src="https://img.shields.io/badge/version-1.0-blue">  
+<img src="https://img.shields.io/badge/version-1.0-blue">
+<img src="https://img.shields.io/badge/coverage-100%25-yellow">  
 </p>
 
 
